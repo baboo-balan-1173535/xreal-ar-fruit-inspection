@@ -60,6 +60,18 @@ hardcoded IP, no rebuild on a network change.
 - `Editor/KiwiSceneBuilder.cs` — builds the scene and the FruitPanel prefab.
 - `XR/Settings/XREALSettings.asset` — tracking mode 3DoF (required).
 
+## Prerequisites — XREAL SDK (not bundled)
+
+The XREAL Unity SDK 3.0 cannot be redistributed here. Download it from the
+[XREAL developer site](https://developer.xreal.com), then edit
+`Packages/manifest.json` so the `com.xreal.xr` entry points at your local copy:
+
+```json
+"com.xreal.xr": "file:<path-to-your-downloaded-sdk>/package",
+```
+
+Unity 2022.3 LTS is required (the project was built on 2022.3.62f3).
+
 ## Build & deploy
 
 1. (If prefab visuals changed) `KiwiSorter ▸ Rebuild FruitPanel Prefab`, save.
