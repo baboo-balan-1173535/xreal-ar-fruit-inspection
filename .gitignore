@@ -1,0 +1,23 @@
+# Unity generated
+Library/
+Temp/
+Obj/
+obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+.vs/
+*.csproj
+*.sln
+*.user
+*.apk
+
+# Imported package content (re-import via Package Manager / Window > TMP)
+Assets/Samples/
+Assets/Samples.meta
+Assets/TutorialInfo/
+Assets/TutorialInfo.meta
+Assets/Readme.asset
+Assets/Readme.asset.meta
